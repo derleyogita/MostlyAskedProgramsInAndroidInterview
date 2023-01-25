@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a990f34a-47d0-4961-bf3e-300f82ebca31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PracticePrograms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CountOfSameCityProgram.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CountOfSameStringOccurance.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringReverse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringReverse.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +40,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.StringReverseKt">
-    <configuration name="CountOfSameCityProgramKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountOfSameCityProgramKt" />
+  <component name="RunManager" selected="Kotlin.CountOfSameStringOccuranceKt">
+    <configuration name="CountOfSameStringOccuranceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountOfSameStringOccuranceKt" />
       <module name="PracticePrograms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -61,8 +57,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CountOfSameStringOccuranceKt" />
         <item itemvalue="Kotlin.StringReverseKt" />
-        <item itemvalue="Kotlin.CountOfSameCityProgramKt" />
       </list>
     </recent_temporary>
   </component>
@@ -92,9 +88,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/StringReverse.kt</url>
-          <line>12</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/src/CountOfSameStringOccurance.kt</url>
+          <line>23</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/CountOfSameStringOccurance.kt</url>
+          <line>24</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/CountOfSameStringOccurance.kt</url>
+          <line>25</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

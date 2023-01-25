@@ -5,10 +5,10 @@ fun main(){
 
     //Example with in-built method
     var name ="Yogita Derle"
-    //println(name.reversed())
+    println(name.reversed())
 
     //Example without in-built method
-    //println(stringReverse(name))
+    println(stringReverse(name))
 
     println(reverseString(name))
 }
