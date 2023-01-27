@@ -8,23 +8,34 @@ import java.util.*
 fun main(){
 
     //1st approach using distinct
-    val list = mutableListOf("Nagpur","Mumbai","Pune","Nashik","Nagpur","Mumbai","Pune")
-    for(i in list.distinct()){
-        println(i + " - " + Collections.frequency(list,i))
+    val cities = mutableListOf("Nagpur","Mumbai","Pune","Nashik","Nagpur","Mumbai","Pune")
+    for(i in cities.distinct()){
+        println(i + " - " + Collections.frequency(cities,i))
     }
 
     //2nd approach groupingBy
-    val cityCount = list.groupingBy { it }.eachCount()
+    val cityCount = cities.groupingBy { it }.eachCount()
     println(cityCount)
 
     //3rd approach using Map - Using LinkedHashMap it helps to maintain the order
     val map: MutableMap<String, Int> = LinkedHashMap()
-    for(i in list){
+    for(i in cities){
         var count = map[i]
         if (count == null) count =0
         map[i] = count+1
-        println(map)
+      println(map)
     }
 
-
+    //3rd approach - mutableMap
+    var count = mutableMapOf<String,Int>()
+    cities.forEach{it->
+        if(count.containsKey(it))
+         {
+             var a =count?.get(it)!!
+             count.put(it,a.plus(1)!!)
+         }else {
+             count.put(it,1)
+        }
+        }
+    println(count)
 }
